@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-mypy-demo"
+version = "0.1.0"
+description = ""
+authors = ["doekeb"]
+readme = "README.md"
+packages = [{include = "poetry_mypy_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mypy = "^0.990"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
